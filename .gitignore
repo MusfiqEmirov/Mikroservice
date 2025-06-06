@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Env files - hər servisin .env fayllarını gizlət
+user-service/.env
+product-service/.env
+order-service/.env
+microservices-ecommerce/.env
+
+# VSCode & IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Virtualenv / Pipenv
+venv/
+.env/
+.Python
+Pipfile.lock
